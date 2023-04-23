@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Development Roadmap</title>
+	<link rel="stylesheet" href="roadmap.css">
+</head>
+<body class="bgi">
+	<h1 style="color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Python Roadmap</h1>
+	<p style="color: aliceblue; font-size:150%;">Level-1</p>
+		<button class="button" onclick="openLink('editor1.html')" style="padding: 15px 60px 15px 60px;">HTML introduction</button>
+		<button class="button" onclick="openLink('editor1.html')" style="padding: 15px 35px 15px 35px;">HTML Elements and Attributes</button>
+		<button class="button" onclick="openLink('editor1.html')" style="padding: 15px 60px 15px 60px;">HTML Documents and Structures</button>
+		<p style="color: aliceblue; font-size:150%;">Level-2</p>
+		<button class="button" onclick="openLink('editor1.html')" style="padding: 15px 60px 15px 60px;">CSS Selectors </button>
+		<br>
+		<br>
+		<button class="button" onclick="openLink('editor1.html')" style="padding: 15px 70px 15px 70px;">CSS Box Model</button>
+	
+        <button class="button" onclick="openLink('editor1.html')" style="padding: 15px 60px 15px 60px;">CSS Cascading</button>
+		<button class="button" onclick="openLink('editor1.html')" style="padding: 15px 70px 15px 70px;">CSS Styling Form</button>
+        <button class="button" onclick="openLink('editor1.html')" style="padding: 15px 65px 15px 65px;">CSS Debugging</button> <br> <br>
+        <button class="button" onclick="openLink('editor1.html')" style="padding: 15px 60px 15px 60px;">CSS Responsiveness</button>
+        <button class="button" onclick="openLink('editor1.html')" style="padding: 15px 50px 15px 50px;">CSS Floats and position properties</button>
+		<p style="color: aliceblue; font-size:150%;">Level-3</p>
+        <button class="button" onclick="openLink('editor1.html')" style="padding: 15px 60px 15px 60px;">CSS Flexbox</button>
+		<button class="button" onclick="openLink('editor1.html')" style="padding: 15px 70px 15px 70px;">CSS Grid</button>
+		<button class="button" onclick="openLink('editor1.html')" style="padding: 15px 60px 15px 60px;">CSS Project</button> <br><br> <br>
+        <a href="webdev.html" target="_blank"><img src="https://bugfender.com/wp-content/uploads/2021/04/Featured.png" alt="Web_development"> <br> <span>Web Development editor </span> </a>
+        <style>
+            img{
+                width:300px;
+                align-items: center;
+                padding: 10px 500px;
+            }
+            span{
+                font-size: large;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: white;
+                padding: 10px 550px;
+            }
+        </style>
+	<script>
+		function openLink(url) {
+			window.open(url, "_blank");
+		}
+        function openLink(url) {
+			window.open(url, "_blank");
+		}
+
+		// Function to handle button clicks and activate the clicked button
+		const buttons = document.querySelectorAll('.button');
+		buttons.forEach(button => {
+			button.addEventListener('click', function() {
+				buttons.forEach(btn => btn.classList.remove('active'));
+				this.classList.add('active');
+			});
+		});
+	</script>
+</body>
+</html>

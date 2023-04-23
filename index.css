@@ -18,7 +18,7 @@
 }
 .navbar{
     display: flex;
-    height: 50px;
+    height: 65px;
 }
 .nav-list{
     
@@ -69,8 +69,8 @@
 
 .logo_w{
     text-align: center;
-    background:  darkslategray;
-    color: rgba(6, 3, 87, 0.747);
+    background:  rgb(28, 27, 27);
+    color: rgb(224, 224, 233);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: double;
     padding: 20px;
@@ -85,7 +85,7 @@
     font-size: 40px;
     font-weight: bold;
     background: #1a1818;
-    color: blueviolet;
+    color: rgb(207, 199, 214);
     padding: 20px 30px ;
   }
   
@@ -109,7 +109,7 @@
   
   @keyframes word-anim {
     0% {
-      width: 0;
+      width: 10%;
     }
     100% {
       opacity: 1;
@@ -128,6 +128,7 @@
 }
 .lang_logo .java_logo {
     width:90%;
+    ;
 
 }
 .lang_logo .java_logo img{
@@ -139,10 +140,12 @@
     padding: 0 50px;
     font-weight: bolder;
     font-size: 20px;
+    color: #fff;
+    
 }
 
 .lang_logo .java_logo span:hover{
-    background: white;
+    background: rgb(20, 18, 18);
 
     border-radius: 9%;
     font-size: 30px;
@@ -170,10 +173,11 @@
     font-weight: bolder;
     font-size: 20px;
     display: flex;
+    color: #fff;
 
 }
 .lang_logo .webd_logo span:hover{
-    background: white;
+    background: rgb(12, 12, 12);
 
     border-radius: 9%;
     font-size: 30px;

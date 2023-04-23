@@ -6,7 +6,7 @@
   }
   body{
     background: #454545;
-    color: #fff;
+    color: #f7efef;
   
   }
   .container{
@@ -25,9 +25,9 @@
     width: 100%;
     height: 28%;
     background: #1F1F1F;
-    color: #fff;
+    color: #f8f2f2;
     padding: 10px 20px;
-    border: 0;
+    border: 0;  
     outline: 0;
     font-size: 18px;
   
@@ -36,7 +36,7 @@
   iframe{
     width: 100%;
     height: 95%;
-    background: #fff;
+    background: #1d1a1a;
     border: 0;
     outline: 0;
     
